@@ -11,8 +11,8 @@ jQuery(document).on("click","#btn-save",function() {
       description: "required"
     },
     messages: {
-      amount: "Please enter your firstname",
-      description: "Please enter your lastname"
+      amount: "Please enter amount",
+      description: "Please enter description"
     }
   });
   if(!jQuery("#formAddTransaction").valid()){
